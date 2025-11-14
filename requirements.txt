@@ -1,0 +1,7 @@
+Flask==2.2.5
+pandas
+numpy
+scikit-learn
+xgboost
+gunicorn
+Werkzeug==2.3.7
