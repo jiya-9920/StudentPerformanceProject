@@ -67,6 +67,7 @@ The deployed model is:
 │   └── index.html
 ├── StudentsPerformance.csv
 └── Model_Training.ipynb
+
 --
 📝 Usage
 
