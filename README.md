@@ -60,7 +60,6 @@ The deployed model is:
 6)Deploying using Flask + Gunicorn on Render
 --
 📂 Project Structure
---
 ├── app.py
 ├── student_model.pkl
 ├── requirements.txt
