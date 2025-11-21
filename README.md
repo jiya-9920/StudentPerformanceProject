@@ -4,7 +4,7 @@
 A machine learning web application that predicts whether a student will pass or fail, based on demographic and academic features.
 The project includes full model training, evaluation, and deployment using Flask and Render.
 
---
+
 
 🚀 Live Web App
 --
