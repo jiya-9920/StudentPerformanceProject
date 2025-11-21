@@ -59,7 +59,9 @@ The deployed model is:
 
 6)Deploying using Flask + Gunicorn on Render
 --
-📂 Project Structure
+## 📂 Project Structure
+
+```plaintext
 ├── app.py
 ├── student_model.pkl
 ├── requirements.txt
@@ -67,6 +69,7 @@ The deployed model is:
 │   └── index.html
 ├── StudentsPerformance.csv
 └── Model_Training.ipynb
+```
 
 --
 
