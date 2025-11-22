@@ -24,17 +24,42 @@ The deployed model is:
   student_model.pkl
   
 --
-📊 Features Considered
+📊 Dataset Description
+
 --
-1)Gender
 
-2)Race/ethnicity
+This project uses the Students Performance in Exams dataset from Kaggle, which contains demographic, socioeconomic, and academic information about students.
+It includes 1,000 records, where each row represents one student.
 
-3)Parental level of education
+🔗 Dataset Source:
+https://www.kaggle.com/datasets/spscientist/students-performance-in-exams
+--
+Features
+--
 
-4)Lunch type
+1)gender – Male or Female
 
-5)Test preparation course
+2)race/ethnicity – Student’s ethnic group (A–E)
+
+3)parental level of education – Highest education level of the student's parents
+
+4)lunch – Type of lunch support (standard or free/reduced)
+
+5)test preparation course – Completed or not completed
+
+6)math score, reading score, writing score – Exam performance (0–100)
+
+Target Variable
+
+-Pass/Fail Classification
+
+   -Created using the mean of math, reading, and writing scores
+
+   -Students with an average ≥ 60% → Pass
+
+  -Students with an average < 60% → Fail
+
+This dataset is widely used to explore how demographic and socioeconomic factors influence academic outcomes and is ideal for building classification models.
 
 --
 🔧 Tech Stack
