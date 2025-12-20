@@ -46,14 +46,18 @@ Features:
 7)Reading Score (0–100)
 
 8)Writing Score (0–100)
+
 --
 🎯 Target Variable
 --
 Pass / Fail Classification
 
 1)Average of math, reading, and writing scores calculated
+
 2)Average ≥ 60% → Pass
+
 3)Average < 60% → Fail
+
 --
 ⚙️ Methodology
 --
@@ -101,6 +105,7 @@ Pass / Fail Classification
 🤖 Model Training
 --
 Multiple machine learning models were trained and compared:
+
 1)Logistic Regression
 
 2)Random Forest
@@ -142,10 +147,15 @@ Multiple machine learning models were trained and compared:
 🌐 Live Web Application
 --
 🔗 Live App:
+
 https://studentperformanceproject-2.onrender.com/
+
 📝 Usage
+
 1)Enter student details in the web form
+
 2)Submit the data
+
 3)Get real-time prediction: Pass or Fail
 
 --
@@ -177,6 +187,7 @@ https://studentperformanceproject-2.onrender.com/
 --
 📂 Project Structure
 --
+
 ├── app.py
 ├── student_model.pkl
 ├── requirements.txt
@@ -184,9 +195,11 @@ https://studentperformanceproject-2.onrender.com/
 │   └── index.html
 ├── StudentsPerformance.csv
 └── Model_Training.ipynb
+
 --
 🚀 Future Scope
 --
+
 1)Extend prediction to grade-level classification
 
 2)Add feature importance visualizations in the web app
@@ -198,6 +211,7 @@ https://studentperformanceproject-2.onrender.com/
 --
 👩‍💻 Author
 --
+
 Anushka Dixit
 Computer Science & AI Engineering Student
 
